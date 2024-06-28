@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blue-microservice
+spec:
+  selector:
+    matchLabels:
+      app: blue-ms
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: blue-ms
+    spec:
+      containers:
+      - name: blue-ms
+        imagePullPolicy: Always
+        image: MediConnect/blue
+        ports:
+        - containerPort: 7000
