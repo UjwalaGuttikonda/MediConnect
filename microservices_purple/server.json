@@ -1,0 +1,8 @@
+{
+    "alldoctors": "https://api.betterdoctor.com/2016-03-01/doctors",
+    "allpractices": "https://api.betterdoctor.com/2016-03-01/practices",
+    "specificdoctor": "https://api.betterdoctor.com/2016-03-01/doctors/$$uid",
+    "specificpractice": "https://api.betterdoctor.com/2016-03-01/practices/$$uid",
+    "doctorsinpractice": "https://api.betterdoctor.com/2016-03-01/practices/$$uid/doctors",
+    "better-doctor-api-key": "9b42a26b03720362acc1afe40bd3372a"
+}
